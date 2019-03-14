@@ -128,6 +128,7 @@ table {
 
 @font-face {
   font-family: 'gothic';
+  font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
   src: url("../fonts/gothic.ttf"); }
 
 @font-face {
@@ -310,10 +311,47 @@ p {
   position: relative;
   top: -175px; }
 
-  #mobile-video{
-    margin-top: 2rem;
+  #mobile-video img{
+    margin-top: 4rem;
+    margin-left: 1rem;
     position: absolute;
   }
+  @media (max-width: 1200px){
+    #mobile-video img{
+      margin-top: 2rem;
+      margin-left: 1rem;
+      position: absolute;
+      width: 180px;
+    }
+  }
+  @media (max-width: 1000px){
+    #mobile-video img{
+      margin-top: 2rem;
+      margin-left: 1rem;
+      position: absolute;
+      width: 120px;
+      height: 200px;
+    }
+  }
+  @media (max-width: 767px){
+    #mobile-video img{
+      margin-top: 0rem;
+      margin-left: 1rem;
+      position: absolute;
+      width: 142px;
+      height: 215px;
+    }
+  }
+  @media (max-width: 400px){
+    #mobile-video img{
+      margin-top: 2rem;
+      margin-left: 1rem;
+      position: absolute;
+      width: 128px;
+      height: 215px;
+    }
+  }
+
 
 .first-section {
   position: relative;
@@ -468,6 +506,9 @@ p {
       @media (max-width: 767px) {
         #dt-circle-mobile img{
           display: none;
+         }
+         .mobile-head{
+           display: none;
          }
         }
 
