@@ -465,6 +465,11 @@ p {
       position: absolute;
       left: 220px;
       bottom: 0; }
+      @media (max-width: 767px) {
+        #dt-circle-mobile img{
+          display: none;
+         }
+        }
 
 footer {
   padding: 45px 25px;
