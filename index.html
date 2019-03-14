@@ -64,6 +64,9 @@
                     <div class="col-12 col-md-6 d-flex align-items-end">
                         <div class="row">
                             <div class="col-6">
+                              <video  autoplay loop width="250" height="350" id="mobile-video">
+                                <source src="mobile-video.mp4" type="video/mp4">
+                              </video>
                                 <img src="img/mobile.png" alt="" width="100%">
                             </div>
                             <div class="col-6 d-flex align-items-end">
@@ -106,7 +109,7 @@
                             あなたが貰えるお金は１０００円ではないのです<br>
                             ティンダラーは仮想通貨の技術を使い<br>
                             還元率100%を達成しました！<br>
-    
+
                         </p>
                         <div class="progressing">
                             <div class="prog-bar">
@@ -130,7 +133,7 @@
                                     <div class="col-9">
                                         <div class="bar">
                                             <div class="fill-bar wow" style="transform: translateX(46%)">
-    
+
                                             </div>
                                             <i>46%</i>
                                         </div>
@@ -145,7 +148,7 @@
                                     <div class="col-9">
                                         <div class="bar">
                                             <div class="fill-bar wow " style="transform: translateX(75%)">
-    
+
                                             </div>
                                             <i>75%</i>
                                         </div>
@@ -160,7 +163,7 @@
                                     <div class="col-9">
                                         <div class="bar">
                                             <div class="fill-bar wow percent-100" style="transform: translateX(100%)">
-    
+
                                             </div>
                                             <i>100%</i>
                                         </div>
@@ -178,7 +181,7 @@
                     </div>
                 </div>
             </div>
-    
+
         </div>
         <div class="third-section">
             <div class="rotate-bg">
@@ -217,7 +220,7 @@
                             <h1 class="h-title">
                                 <i>Let’s play now !!!</i>
                             </h1>
-    
+
                         </div>
                         <div class="cards-game">
                                 <div class="cards-border">
@@ -233,14 +236,14 @@
                                                          <span class="nub nub9"></span>
                                                      </div>
                                                  </div>
-                                                
+
                                              </div>
                                              <div class="card" id="chartAB">
                                                  <span class="chart a1"><img src="img/card1.png" alt=""></span>
                                                  <span class="chart a2"><img src="img/card1.png" alt=""></span>
                                                  <span class="chart a3 chartAB_box"><img src="img/card1.png" alt=""></span>
                                              </div>
-                                             
+
                                              <div class="button  ">
                                                  <a href="javascript:void (0)" class="red">RED</a>
                                                  <a href="javascript:void (0)" class="black">BLACK</a>
@@ -286,7 +289,7 @@
                                      <script src="js/layer/layer.js" type="text/javascript" charset="utf-8"></script>
                                      <script src="js/public.js"></script>
                                      <script>
-                                     
+
                                          var address = sessionStorage['address'];
                                          $(".dizi .di span").html(address)
                                          /*点击出现地址弹窗*/
@@ -308,7 +311,7 @@
                                          $(".dizi div").on("click",function(e){
                                              e.stopPropagation();
                                          });
-                                     
+
                                          /*判断牌是否为负*/
                                          var pai_b=true;
                                          /*输*/
@@ -369,7 +372,7 @@
                                                  }
                                                  $(".n_right .nub_box").html(str);
                                              }
-                                     
+
                                              if(picture!=undefined){
                                                  $("#head_img_").children("img").attr({src:url+"/Public/Uploads/"+picture});
                                              }
@@ -420,7 +423,7 @@
                                                      $("#chartAB .chart img").attr({src:"images/card8.png"});
                                                      break;
                                              }
-                                     
+
                                              Count_down_time();
                                          };
                                          function bottom_animate(){
@@ -480,7 +483,7 @@
                                                  }
                                              }
                                          });
-                                     
+
                                          function Count_down_time() {
                                              var clear_in=setInterval(function () {
                                                  var hou = $(".new_time .time span").eq(4);
@@ -624,7 +627,7 @@
                                                  $(document).unbind("mouseup", stop);
                                              }
                                          }
-                                     
+
                                          var ellp = "#chartAB";
                                          var ellc = ".chartAB_box";
                                          Drag_and_drop(ellp, ellc);
@@ -683,7 +686,7 @@
                                                  }
                                              });
                                          };
-                                     
+
                                      </script>
                         </div>
                     </div>

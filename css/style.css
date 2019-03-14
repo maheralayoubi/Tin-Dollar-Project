@@ -310,6 +310,11 @@ p {
   position: relative;
   top: -175px; }
 
+  #mobile-video{
+    margin-top: 2rem;
+    position: absolute;
+  }
+
 .first-section {
   position: relative;
   z-index: 50;
