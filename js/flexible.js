@@ -18,7 +18,6 @@
     var rem = docEl.clientWidth / 10;
     docEl.style.fontSize = rem + 'px'
   }
-
   setRemUnit();
 
   // reset rem unit on page resize
@@ -28,7 +27,6 @@
       setRemUnit()
     }
   });
-
   // detect 0.5px supports
   if (dpr >= 2) {
     var fakeBody = document.createElement('body');
