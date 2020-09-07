@@ -4,9 +4,10 @@
   animate.css -httpdaneden.meanimate
   Version - 3.7.0
   Licensed under the MIT license - httpopensource.orglicensesMIT
-
+ 
   Copyright (c) 2018 Daniel Eden
  
+
 @-webkit-keyframes bounce {
   from,
   20%,
@@ -111,7 +112,7 @@
   animation-name flash;
 }
 
- originally authored by Nick Pettit - httpsgithub.comnickpettitglide
+ originally authored by Nick Pettit - httpsgithub.comnickpettitglide 
 
 @-webkit-keyframes pulse {
   from {
@@ -489,7 +490,7 @@
   animation-name tada;
 }
 
- originally authored by Nick Pettit - httpsgithub.comnickpettitglide
+ originally authored by Nick Pettit - httpsgithub.comnickpettitglide 
 
 @-webkit-keyframes wobble {
   from {
@@ -2847,7 +2848,7 @@
   animation-name jackInTheBox;
 }
 
- originally authored by Nick Pettit - httpsgithub.comnickpettitglide
+ originally authored by Nick Pettit - httpsgithub.comnickpettitglide 
 
 @-webkit-keyframes rollIn {
   from {
@@ -2882,7 +2883,7 @@
   animation-name rollIn;
 }
 
- originally authored by Nick Pettit - httpsgithub.comnickpettitglide
+ originally authored by Nick Pettit - httpsgithub.comnickpettitglide 
 
 @-webkit-keyframes rollOut {
   from {
