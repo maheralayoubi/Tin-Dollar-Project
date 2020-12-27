@@ -80,7 +80,22 @@ function zhuanzang(money){
     });
 };
 
-
+function update(){
+    var address = sessionStorage['address'];
+    $.ajax({
+        type: "post",
+        url: url+"/index.php?m=Admin&c=Api&a=kremaining",
+        data: {uid :id_u,address:address},
+        dataType: "json",
+        async: true,
+        success: function(data) {
+            if (data.status) {
+                sessionStorage.setItem('card',data.remaining);
+//					$(".head_img_new .txt_head .number").html(data.remaining+'<i></i>');
+            }
+        }
+    });
+};
 
 /*定时更新余额 10秒钟重新渲染次余额数据*/
 setInterval(function(){
